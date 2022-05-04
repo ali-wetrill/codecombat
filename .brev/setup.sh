@@ -12,6 +12,8 @@ sudo apt install ca-certificates
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+pwd
+
 (echo ""; echo "##### Setup Deps #####"; echo "";)
 npm install --also=dev
 npm run build 
